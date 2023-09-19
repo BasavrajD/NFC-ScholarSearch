@@ -1,0 +1,211 @@
+.vector-icon,
+.vector-icon1,
+.vector-icon2,
+.vector-icon3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 665.71px;
+  height: 982px;
+  opacity: 0.8;
+}
+.vector-icon1,
+.vector-icon2,
+.vector-icon3 {
+  width: 1040px;
+}
+.vector-icon2,
+.vector-icon3 {
+  width: 758.76px;
+  height: 810.03px;
+}
+.vector-icon3 {
+  top: 259px;
+  width: 1186.76px;
+  height: 723px;
+}
+.log-in2 {
+  position: absolute;
+  top: 137px;
+  left: 419px;
+  text-decoration: underline;
+  font-weight: 500;
+  display: inline-block;
+  width: 151px;
+  height: 79px;
+  font-size: 2rem;
+}
+.log-in3 {
+  position: relative;
+  font-size: var(--font-size-16xl);
+  font-weight: 500;
+  font-family: var(--font-ubuntu);
+  color: var(--color-white);
+  text-align: left;
+}
+
+#input-field{
+font-family: var(--font-ubuntu);
+  font-size: var(--font-size-xl);
+  background-color: transparent;
+  top: 265px;
+  height: 75px;
+  border: 2px solid var(--color-dimgray);
+  position: absolute;
+  left: 165px;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  width: 660px;
+}
+
+.input-feild,
+.log-in-wrapper {
+  border: 2px solid var(--color-dimgray);
+  position: absolute;
+  left: 165px;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  width: 660px;
+}
+.log-in-wrapper {
+  cursor: pointer;
+  padding: var(--padding-3xs);
+  background-color: var(--color-cornflowerblue-100);
+  top: 510px;
+  height: 70px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.input-feild {
+  font-family: var(--font-ubuntu);
+  font-size: var(--font-size-xl);
+  background-color: transparent;
+  top: 325px;
+  height: 75px;
+}
+.sign-up1 {
+  color: var(--color-cornflowerblue-200);
+}
+.dont-have-an-container,
+.input-feild1 {
+  font-size: var(--font-size-xl);
+  position: absolute;
+  left: 165px;
+}
+.dont-have-an-container {
+  cursor: pointer;
+  text-decoration: none;
+  top: 610px;
+  font-size: 1rem;
+  display: inline-block;
+  width: 293px;
+  color: var(--color-dimgray);
+}
+.input-feild1 {
+  border: 2px solid var(--color-dimgray);
+  font-family: var(--font-ubuntu);
+  background-color: transparent;
+  top: 393px;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  width: 660px;
+  height: 75px;
+  padding-left: 10px;
+}
+.right {
+  position: absolute;
+  top: 0;
+  left: 484px;
+  background-color: var(--color-white);
+  width: 960px;
+  height: 982px;
+}
+.discover-opportunities-secure {
+  position: absolute;
+  top: 170px;
+  left: 73px;
+  display: inline-block;
+  font-family: var(--font-syne);
+  color: var(--color-white);
+  width: 458px;
+  height: 243px;
+}
+.phstudent-fill,
+.undraw-education-f8ru-1-icon {
+  position: absolute;
+  top: 463px;
+  left: 56px;
+  width: 344px;
+  height: 249px;
+  overflow: hidden;
+}
+.phstudent-fill {
+  top: 24px;
+  left: 11px;
+  width: 107px;
+  height: 107px;
+}
+.log-in1 {
+  top: 0;
+  background-color: var(--color-royalblue);
+  width: 1440px;
+  height: 982px;
+}
+.log-in1,
+.sign-up,
+.vector-icon4 {
+  position: absolute;
+  left: 0;
+  overflow: hidden;
+}
+.sign-up {
+  top: 0;
+  background-color: var(--color-white);
+  width: 1440px;
+  height: 982px;
+}
+.vector-icon4 {
+  height: 77.27%;
+  width: 16.49%;
+  top: 11.36%;
+  right: 83.51%;
+  bottom: 11.36%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.scholarsearch {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 37.9px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  width: 170px;
+  height: 44px;
+}
+.vector-parent {
+  position: absolute;
+  top: 24px;
+  left: 38.1px;
+  width: 207.9px;
+  height: 44px;
+  font-size: var(--font-size-11xl);
+  color: var(--color-indigo);
+  font-family: var(--font-antonio);
+}
+.log-in {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-ubuntu);
+}

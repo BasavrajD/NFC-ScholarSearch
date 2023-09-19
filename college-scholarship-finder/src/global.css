@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-antonio: Antonio;
+  --font-syne: Syne;
+  --font-ubuntu: Ubuntu;
+
+  /* font sizes */
+  --font-size-11xl: 30px;
+  --font-size-31xl: 50px;
+  --font-size-xl: 20px;
+  --font-size-16xl: 35px;
+  --font-size-6xl: 25px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-indigo: #4a1e82;
+  --color-royalblue: #6474e5;
+  --color-dimgray: #535353;
+  --color-cornflowerblue-100: #9aa4ec;
+  --color-cornflowerblue-200: #8182dc;
+  --color-darkslategray: #2d2d2d;
+
+  /* Paddings */
+  --padding-3xs: 10px;
+
+  /* Border radiuses */
+  --br-21xl: 40px;
+  --br-3xs: 10px;
+}

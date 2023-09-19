@@ -1,0 +1,49 @@
+/* Crowd.css */
+
+.crowd-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+.crowd-container h2{
+    margin-bottom: 20px;
+    text-shadow: 0 0 25px #9da9ff;
+}  
+  .campaign-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .campaign-card {
+    /* flex: 1; */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 25px #9da9ff;
+    margin-top: 20px;
+  }
+  
+  .campaign-card h3 {
+    margin-top: 0;
+  }
+  
+  button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #6474E5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3d4792;
+  }
+  
+  /* Add more CSS styles to customize the appearance of your crowdfunding component as needed. */
+  

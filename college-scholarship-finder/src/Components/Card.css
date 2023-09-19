@@ -1,0 +1,69 @@
+/* Card.css */
+.box-container{
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  text-align: left;
+  transition: transform 0.2s ease-in-out;
+  max-width: 300px;
+  border: .2rem solid #0056b3;
+  margin-left: 50px;
+}
+  
+.card:hover {
+  transform: scale(1.02);
+}
+  
+.card-image-container {
+  text-align: center;
+  border: .2rem solid #4da1fa;
+  border-radius: .5rem;
+}
+  
+.card-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+  
+.card-content {
+  margin-top: 10px;
+}
+  
+.card-title {
+  font-size: 1.5rem;
+  margin: 0;
+}
+  
+.card-text {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.card .card-content .Deadline{
+  padding-top: 20px;
+  font-size: medium;
+}
+  
+.apply-button {
+  background-color: #6474E5;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+  
+.apply-button:hover {
+  background-color: #0056b3;
+}
+    

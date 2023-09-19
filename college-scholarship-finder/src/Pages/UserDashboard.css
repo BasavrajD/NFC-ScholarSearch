@@ -1,0 +1,78 @@
+/* UserDashboard.css */
+
+.user-dashboard {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    margin: 100px auto;
+    text-align: center;
+    background-color: #c4cbff;
+}
+
+.user-dashboard h2{
+    width: 100%;
+    border-radius: .3rem;
+    color: black;
+}
+
+
+  
+
+  
+.user-profile-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    object-fit: cover;
+}
+  
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 5rem;
+    margin-right: 20px;
+    border:.5rem solid blue
+}
+  
+.user-info {
+    text-align: left;
+    background-color: #fff;
+    border-radius: .5rem;
+    padding: 40px;
+}
+  
+.user-info h3 {
+    font-size: 24px;
+    margin: 0;
+    padding: 10px;
+    color: blue;
+}
+  
+.user-info p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+  
+.user-bio {
+    text-align: left;
+}
+  
+.user-bio h3 {
+    font-size: 20px;
+    margin: 0 0 10px;
+    padding: 0;
+}
+  
+.user-bio p {
+    font-size: 14px;
+    margin: 0;
+}
+  

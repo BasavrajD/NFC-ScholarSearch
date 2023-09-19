@@ -1,0 +1,87 @@
+/* ContactUs.css */
+
+/* Adjust styles for better integration into your site */
+
+.contact-us-container {
+    font-family: 'poppins', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #dee2ff;
+    /* Background color that matches your site */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 100px 0;
+}
+
+.contact-info {
+    flex: 1;
+    padding: 20px;
+}
+
+.contact-info h2 {
+    font-size: 24px;
+    /* Adjust font size to match your site */
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    font-size: 16px;
+    /* Adjust font size to match your site */
+    margin-bottom: 10px;
+}
+
+.contact-form {
+    flex: 2;
+    padding: 20px;
+    background-color: #fff;
+    /* Background color for the form */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    font-size: 24px;
+    /* Adjust font size to match your site */
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+    /* Adjust font size to match your site */
+}
+
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    /* Adjust font size to match your site */
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: .2s linear;
+    border-radius: 0.5rem;
+    /* Adjust font size to match your site */
+}
+
+button:hover {
+    background-color: #0056b3;
+}

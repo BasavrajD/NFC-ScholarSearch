@@ -1,0 +1,75 @@
+/* Session.css */
+*{
+    font-family: 'Poppins', sans-serif;
+}
+h2{
+    text-decoration: underline;
+}
+
+.session-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f1fd;
+    text-align: center;
+  }
+  .date-picker{
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px 0;
+  }
+  .date-picker label {
+    display: block;
+    margin: 10px 70px;
+  }
+  
+  .time-slots ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .time-slots li {
+    cursor: pointer;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+  }
+  
+  .time-slots li.selected {
+    background-color: #6474E5;
+    color: #fff;
+  }
+  
+  .session-scheduled {
+    text-align: center;
+    padding: 20px;
+    background-color: #c4cbff;
+    color: #fff;
+  }
+  
+  button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #6474E5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #4b55a7;
+  }
+  
+
+  #date{
+    width: 250px;
+    padding-left: 20px;
+    border-radius: 5px;
+    border: 1px solid #4b55a7;
+  }

@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.heading {
+  font-weight: bold;
+  font-size: 2rem;
+  color: rgb(232, 66, 66);
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.header-section {
+  justify-content: center;
+  gap: 80px;
+}
+
+.textBelow {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.25rem;
+  color: #577592;
+  line-height: 1.8rem;
+}
+
+.highlight {
+  color: rgb(232, 66, 66);
+}
+.left-section {
+  width: 700px;
+  text-align: center;
+}
+
+.twoDonors {
+  width: 75%;
+}
